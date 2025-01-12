@@ -38,18 +38,17 @@ Visualization and statistical methods were used to explore trends in flight data
 Key charts include:
 - **Pie Chart:** Distribution of flights by airline in 2015.
 - **Stacked Bar Chart:** Delayed by airline and delay type, sorted by the most delayed airline.
-![Stacked Bar](EDA_Charts/total_delay_type_airline.png)
+![Stacked Bar](EDA_charts/total_delay_type_airline.png)
 - **Scatter Plot:** Relationship between flight distance and arrival delay.
 - **Line Chart:** Monthly trends in total fligths, delays, and cancellations.
-![Pie Chart](EDA_Charts/delay_cancel_total_month.png)
+![Pie Chart](EDA_charts/delay_cancel_total_month.png)
 - **Bar Charts:**
     - Cancellation rates by airline.
     - Delay rates by airline.
     - Cancellation rates by month.
-    ![Bar Chart](EDA_Charts/cancellation_rate_month.png)
+    ![Bar Chart](EDA_charts/cancellation_rate_month.png)
 
-> [!NOTE] <br>
-> "Additional charts and visualizations generated during EDA can be found in the **EDA_Charts** folder."
+> "Additional charts and visualizations generated during EDA can be found in the **EDA_charts** folder."
 
 <br>
 
