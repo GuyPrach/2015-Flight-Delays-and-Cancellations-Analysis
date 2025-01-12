@@ -25,3 +25,46 @@ The dataset includes three raw CSV files:
 
 ___
 
+### Process
+1. **Data Cleaning**
+    - Data Transformation
+        - Converted time-related columns (e.g., SCHEDULED_DEPARTURE) into a readable format (e.g., 0508 instead of 50.8)
+        - Split the dataset into two subsets: **delayed_flights** and **cancelled_flights** for more focused analysis
+
+<br>
+
+2. **Exploratory Data analysis (EDA)** <br>
+Visualization and statistical methods were used to explore trends in flight data.
+Key charts include:
+- **Pie Chart:** Distribution of flights by airline in 2015.
+- **Stacked Bar Chart:** Delayed by airline and delay type, sorted by the most delayed airline.
+![Stacked Bar](EDA_Charts/total_delay_type_airline.png)
+- **Scatter Plot:** Relationship between flight distance and arrival delay.
+- **Line Chart:** Monthly trends in total fligths, delays, and cancellations.
+![Pie Chart](EDA_Charts/delay_cancel_total_month.png)
+- **Bar Charts:**
+    - Cancellation rates by airline.
+    - Delay rates by airline.
+    - Cancellation rates by month.
+    ![Bar Chart](EDA_Charts/cancellation_rate_month.png)
+
+> [!NOTE] <br>
+> "Additional charts and visualizations generated during EDA can be found in the **EDA_Charts** folder."
+
+<br>
+
+3. **Keys Insights** <br>
+- **Flight Distribution**: Southwest Airlines had the most flights in 2015, while Virgin America had the fewest.  
+- **Delays by Airline**: Southwest Airlines had the highest total delays (416,124), with delays categorized by type.  
+- **Delay Rate**: Hawaiian Airlines had the lowest delay rate (11%), while Spirit Airlines had the highest (29%).  
+- **Cancellation Rate**: Hawaiian Airlines had the lowest cancellation rate (0.2%), while Envoy Air had the highest (5%).  
+- **Distance vs. Delay**: Longer flights generally had fewer arrival delays, indicating better scheduling efficiency.  
+- **Monthly Delays**: May-July and November-December had the highest delays due to seasonal demand.  
+- **Monthly Cancellations**: February had the highest cancellation rate (4%), likely due to weather, while September had the lowest (0.4%).  
+
+___
+
+### Tools
+**Programming Language:** Python <br>
+**Visualization Tool:** Power BI (for dashboard) <br>
+**Libraries:** pandas, matplotlib
